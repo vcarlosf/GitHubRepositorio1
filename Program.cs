@@ -19,6 +19,7 @@ int minDep = Poblacion.Min();
 string maxDepkey = "", minDepkey = "";
 
 for (var i = 0; i < Poblacion.Length; i++)
+//Ordenando con diccionario y Orderby de 
 {
     if (Poblacion[i] == maxDep)
         maxDepkey = Departamento[i];
