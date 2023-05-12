@@ -23,6 +23,7 @@ for (var i = 0; i < Poblacion.Length; i++)
 {
     if (Poblacion[i] == maxDep)
         maxDepkey = Departamento[i];
+        //mostrar los resultados  
     if (Poblacion[i] == minDep)
         minDepkey = Departamento[i];
 }
