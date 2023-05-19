@@ -1,10 +1,9 @@
-﻿//programa que permita visualizar los departamentos de nicaragua con
-//su cantidad poblacional.
-//Encuentre: Mayor, menor, sumas y ordene los datos
-
-
-
+﻿
+// definicion y inicializacion en pararelo Y EL DICCIONARIO
 using System.Collections;
+using System;
+
+
 String[] Departamento = { "Boaco", "Carazo", "Chinandega", "Chontales", "Costa Caribe Norte", "Costa Caribe Sur", "Estelí", "Granada", "Jinotega", "León", "Madriz", "Managua", "Masaya", "Matagalpa", "Nueva Segovia", "Río San Juan", "Rivas" };
 int[] Poblacion = { 185013, 197139, 439906, 190863, 530586, 414543, 229866, 214317, 475630, 421050, 174744, 1546939, 391903, 593503, 271581, 135446, 182645 };
 // Encontrar el mayor y el menor
